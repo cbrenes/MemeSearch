@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  StateSideChangellenge
+
+  Created by Cesar Brenes on 12/8/18.
+  Copyright © 2018 César Brenes. All rights reserved.
+*/
+
+//MEME SEARCH
+"Search" = "Search";
+"Meme Search" = "Meme Search";
+"Loading" = "Loading";
+
+
+//ERROR HANDLE
+"Check your internet connection" = "Check your internet connection";
+"The server has problems" = "The server has problems";
+"The server doesn't have information for this criteria" = "The server doesn't have information for this criteria";
