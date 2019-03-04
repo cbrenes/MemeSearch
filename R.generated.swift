@@ -235,8 +235,8 @@ struct _R: Rswift.Validatable {
   
   struct storyboard: Rswift.Validatable {
     static func validate() throws {
-      try memeSearch.validate()
       try errorHandle.validate()
+      try memeSearch.validate()
       try launchScreen.validate()
     }
     

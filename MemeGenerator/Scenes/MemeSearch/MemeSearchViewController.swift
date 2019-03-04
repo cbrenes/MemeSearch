@@ -21,12 +21,7 @@ class MemeSearchViewController: UIViewController, MemeSearchDisplayLogic {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var searchCriteria: UITextField!
     @IBOutlet weak var errorHandleContainerView: UIView!
-    @IBOutlet weak var searchButtonOutlet: UIButton! {
-        didSet {
-            searchButtonOutlet.setTitleColor(UIColor.white, for: .normal)
-            searchButtonOutlet.setTitleColor(UIColor.white.withAlphaComponent(0.5), for: .disabled)
-        }
-    }
+    @IBOutlet weak var searchButtonOutlet: UIButton!
     
     private let activityIndicator = JGProgressHUD(style: .dark)
     fileprivate let heightForRow: CGFloat = 226.0
